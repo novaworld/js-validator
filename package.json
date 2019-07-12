@@ -1,6 +1,6 @@
 {
-  "name": "@ttungbmt/js-validator",
-  "version": "2.0.1",
+  "name": "@ttungbmt/validator",
+  "version": "2.0.2",
   "description": "JS Validator",
   "main": "dist/validator.cjs.js",
   "unpkg": "dist/validator.umd.min.js",
@@ -17,8 +17,6 @@
     "dev": "rollup -c -w",
     "hot": "rollup -c -w --environment NODE_ENV:hot",
     "build": "rollup -c --environment NODE_ENV:production",
-    "start": "serve public",
-    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -42,7 +40,6 @@
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-terser": "^5.1.1",
     "rollup-plugin-typescript": "^1.0.1",
-    "rollup-plugin-uglify": "^6.0.2",
     "rollup-plugin-url": "^2.2.2",
     "rollup-plugin-visualizer": "^2.4.4",
     "rollup-plugin-vue": "^5.0.1",
