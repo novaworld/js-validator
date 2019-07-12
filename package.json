@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/js-validator",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "JS Validator",
   "main": "dist/validator.cjs.js",
   "unpkg": "dist/validator.umd.min.js",
@@ -9,6 +9,10 @@
   "sideEffects": false,
   "author": "Truong Thanh Tung",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/novaworld/js-validator.git"
+  },
   "scripts": {
     "dev": "rollup -c -w",
     "hot": "rollup -c -w --environment NODE_ENV:hot",
@@ -50,6 +54,7 @@
     "validator": "^11.1.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ]
 }
