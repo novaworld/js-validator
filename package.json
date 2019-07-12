@@ -15,7 +15,7 @@
     "hot": "rollup -c -w --environment NODE_ENV:hot",
     "build": "rollup -c --environment NODE_ENV:production",
     "start": "serve public",
-    "publish": "npm publish"
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
