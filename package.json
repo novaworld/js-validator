@@ -1,7 +1,7 @@
 {
-  "name": "@ttungbmt/validator",
+  "name": "@ttungbmt/js-validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS Validator",
   "main": "dist/validator.cjs.js",
   "unpkg": "dist/validator.umd.min.js",
   "module": "dist/validator.es.js",
@@ -10,12 +10,12 @@
   "author": "Truong Thanh Tung",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -c -w",
     "hot": "rollup -c -w --environment NODE_ENV:hot",
     "build": "rollup -c --environment NODE_ENV:production",
     "start": "serve public",
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
